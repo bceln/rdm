@@ -50,3 +50,6 @@ nav:
   - Home: index.md
   - About: about.md
   - Contributing: contributing.md
+  - Repositories:
+      - Borealis: repositories/borealis.md
+      - FRDR: repositories/frdr.md
