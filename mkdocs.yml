@@ -1,0 +1,51 @@
+site_name: BC Research Data Management Hub
+site_url: https://bceln.github.io/rdm
+repo_url: https://github.com/bceln/rdm
+edit_uri: edit/main/docs
+
+theme:
+  name: material
+#  logo: 'assets/Arca_Logo_web.svg'
+  palette:
+    primary: 'cyan'
+    accent: 'purple'
+  language: 'en'
+  features:
+    - content.action.edit
+    - content.action.view
+    - announce.dismiss
+  icon:
+    edit: material/pencil
+    view: material/eye
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+        permalink: True
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true  
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - About: about.md
